@@ -142,8 +142,8 @@ h3 {
   align-items: center;
   background-color: #f3f3f3;
   width: 100%;
-  max-width: 78%;
-  padding: 20px 87px;
+  max-width: 80%;
+  padding: 20px 80px;
   border: none;
 }
 
@@ -314,7 +314,7 @@ h2 {
   color: #ccc;
 }
 
-.contact-form {
+.contact-form{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -322,10 +322,10 @@ h2 {
 
 .contact-form input,
 .contact-form textarea {
-  padding: 25px;
+  padding: 20px;
   border: none;
   outline: none;
-  width: 100%;
+  width: 200px;
   font-size: 14px;
 }
 
@@ -335,14 +335,11 @@ h2 {
 }
 
 .contact-form button {
-  background-color: white;
-  color: black;
+  background-color: rgba(255, 255, 255, 0.986);
+  color: rgba(0, 0, 0, 1);
   border: none;
-  padding: 10px 15px;
+  padding: 100px 150px;
   cursor: pointer;
-  width: fit-content;
-  font-weight: bold;
-
 }
 
 .contact-form button:hover {
@@ -400,8 +397,8 @@ footer a {
 
   .stats-container {
     flex-direction: column;
-    width: 92%;
-    padding: 20px;
+    width: 100%;
+    padding: 35px;
   }
 
   .pricing-section {
