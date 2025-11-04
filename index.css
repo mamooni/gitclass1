@@ -141,8 +141,8 @@ h3 {
   justify-content: space-around;
   align-items: center;
   background-color: #f3f3f3;
-  width: 78%;
-  max-width: 100%;
+  width: 100%;
+  max-width: 78%;
   padding: 20px 87px;
   border: none;
 }
