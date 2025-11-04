@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  margin: 50px 400px;
+  margin: 50px 300px;
   font-family: 'montserrat';
 
 }
@@ -142,8 +142,8 @@ h3 {
   align-items: center;
   background-color: #f3f3f3;
   width: 78%;
-  max-width: 900px;
-  padding: 40px 100px;
+  max-width: 100%;
+  padding: 20px 87px;
   border: none;
 }
 
@@ -182,7 +182,7 @@ button:hover{
 
 .pricing-card {
   background-color: #999;
-  width: 550px;
+  width: 600px;
   text-align: center;
   color: #000;
   border: 5px solid #000;
@@ -280,15 +280,14 @@ button:hover{
 .gallery {
   column-count: 2;     
   column-gap: 10px;    
-  width: 80%;           
-  margin: 40px auto;    
+  width: 100%;           
+
 }
 
 .gallery img {
   width: 100%;
   margin-bottom: 10px;
   display: block;
-  
   break-inside: avoid; 
 }
 
@@ -326,7 +325,7 @@ h2 {
   padding: 25px;
   border: none;
   outline: none;
-  width: 78%;
+  width: 100%;
   font-size: 14px;
 }
 
@@ -362,11 +361,11 @@ footer a {
 
 @media (max-width: 600px) {
   body {
-    margin: 10px;
+    margin: 30px;
   }
 
   .sidebar {
-    position: static;
+    position: fixed;
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -378,6 +377,16 @@ footer a {
 
   .nav-menu {
     flex-direction: row;
+    justify-content: space-around;
+    background: transparent;
+    
+  }
+  .nav-menu a {
+    background: none;
+    padding: 15px 30px;
+  }
+  .nav-menu a:hover{
+    background-color: #777;
   }
 
   main {
@@ -391,7 +400,7 @@ footer a {
 
   .stats-container {
     flex-direction: column;
-    width: 100%;
+    width: 92%;
     padding: 20px;
   }
 
@@ -402,7 +411,7 @@ footer a {
 
   .pricing-card {
     width: 100%;
-    max-width: 350px;
+    max-width: 360px'
   }
 
   .gallery {
